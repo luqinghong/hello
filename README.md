@@ -1,55 +1,55 @@
 #public class Hello {
-public static void main(String args£Û£Ý) {
-System.out.println(¡åhello C!¡å);
-}ª¤
+public static void main(String argsï¼»ï¼½) {
+System.out.println(â€³hello C!â€³);
+}
+}
+
+
+
+static int i=10;
+public static void main(String argsï¼»ï¼½) {
+int k=10;
+System.out.println(â€³i=â€³+i); 
+System.out.println(â€³k=â€³+k); 
+}
+System.out.println(â€³k=â€³+k); 
 }
 
 
 
-static int i=10;ª¤
-public static void main(String args£Û£Ý) {ª¤
-int k=10;ª¤
-System.out.println(¡åi=¡å+i); ª¤
-System.out.println(¡åk=¡å+k); ª¤
-}ª¤
-System.out.println(¡åk=¡å+k); ª¤ª¤
-}
-
-
-
-public class RAL {ª¤
-public static void main(String args£Û£Ý) {ª¤
-int a=25, b=3, e=3, f=0;ª¤
-boolean d=a<b;ª¤
-System.out.println(¡åa=25,b=3,e=3,f=0¡å);ª¤
-System.out.println(¡åa<b = ¡å+d);ª¤
-if (e!=0 && a/e>5)ª¤
-System.out.println(¡åa/e = ¡å+a/e);ª¤
-if (f!=0 && a/f>5)ª¤
-System.out.println(¡åa/f = ¡å+a/f);ª¤
-elseª¤
-System.out.println(¡åf = ¡å+f);ª¤
+public class RAL {
+public static void main(String argsï¼»ï¼½) {
+int a=25, b=3, e=3, f=0;
+boolean d=a<b;
+System.out.println(â€³a=25,b=3,e=3,f=0â€³);
+System.out.println(â€³a<b = â€³+d);
+if (e!=0 && a/e>5)
+System.out.println(â€³a/e = â€³+a/e);
+if (f!=0 && a/f>5)
+System.out.println(â€³a/f = â€³+a/f);
+else
+System.out.println(â€³f = â€³+f);
 }
 }
 
 }
 
 
-public static void main(String args£Û£Ý) {ª¤
-int c=28;ª¤
-switch (c<10?1:c<25?2:c<35?3:4) {ª¤
-case 1:ª¤
-System.out.println(¡å ¡å+c+¡å¡æ ÓÐµãÀä¡å);ª¤
-break;ª¤
-case 2:ª¤
-System.out.println(¡å ¡å+c+¡å¡æ ºÏÊÊ¡å);ª¤
-break;ª¤
-case 3:ª¤
-System.out.println(¡å ¡å+c+¡å¡æ ÓÐµãÈÈ¡å);ª¤
-break;ª¤
-default:ª¤
-System.out.println(¡å ¡å+c+¡å¡æ Ì«ÈÈÁË¡å);ª¤
-}ª¤
-}ª¤
+public static void main(String argsï¼»ï¼½) {
+int c=28;
+switch (c<10?1:c<25?2:c<35?3:4) {
+case 1:
+System.out.println(â€³ â€³+c+â€³â„ƒ æœ‰ç‚¹å†·â€³);
+break;
+case 2:
+System.out.println(â€³ â€³+c+â€³â„ƒ åˆé€‚â€³);
+break;
+case 3:
+System.out.println(â€³ â€³+c+â€³â„ƒ æœ‰ç‚¹çƒ­â€³);
+break;
+default:
+System.out.println(â€³ â€³+c+â€³â„ƒ å¤ªçƒ­äº†â€³);
+}
+}
 
 
