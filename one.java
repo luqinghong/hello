@@ -5,3 +5,4 @@ do {sum+=n++;
 }
 while (n<=100);
 System.out.println(″1+2＋…+100 =″+sum);
+}
